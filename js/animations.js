@@ -13,11 +13,19 @@ function flashTrever() {
 		.fadeToggle("fast")
 		.fadeToggle("fast")
 		.fadeToggle("fast");
+	$("#img_color")
+		.stop()
+		.fadeToggle("fast")
+		.fadeToggle("fast")
+		.fadeToggle("fast")
+		.fadeToggle("fast");
 }
 
 function slideTrever() {
 	$("#trever").stop().animate({"top": "100px"})
 		.animate({"top": "0px"});
+	$("#img_color").stop().animate({"top": "-167px"})
+		.animate({"top": "-267px"});
 }
 
 function colorTrever() {
