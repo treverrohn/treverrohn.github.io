@@ -7,7 +7,9 @@ function bindEvents() {
 }
 
 function flashTrever() {
-	$("#trever").stop().fadeToggle("fast")
+	$("#trever")
+		.stop()
+		.fadeToggle("fast")
 		.fadeToggle("fast")
 		.fadeToggle("fast")
 		.fadeToggle("fast");
